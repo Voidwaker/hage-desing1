@@ -1,13 +1,14 @@
 import React from 'react';
-import profilePlaceholder from './images/profilePlaceholder.webp';  
 import './about.css';
+import Projects from './projects.jsx';  
+import profilePlaceholder from './images/profilePlaceholder.webp';
 
 const About = () => {
   return (
     <section className="about-container">
       <div className="about-card">
         <img
-          src={profilePlaceholder}  
+          src={profilePlaceholder}
           alt="Profile"
           className="profile-img"
         />
@@ -17,9 +18,12 @@ const About = () => {
           <p>I have over 10 years of experience in the field, and I love helping clients bring their dream gardens to life.</p>
         </div>
       </div>
+      
+      <Projects />
     </section>
   );
 };
 
 export default About;
+
 
