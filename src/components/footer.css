@@ -1,17 +1,10 @@
-.footer {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
+footer {
+    background-color: #6D805D;  
+    color: #F5EEDC;  
     text-align: center;
-    margin-top: 40px;
-  }
-  
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   .footer-links {
@@ -19,14 +12,13 @@
   }
   
   .footer-links a {
-    color: white;
-    margin: 0 10px;
+    color: #F5EEDC;
     text-decoration: none;
-    transition: color 0.3s ease;
+    margin: 0 10px;
   }
   
   .footer-links a:hover {
-    color: #333; 
+    color: #4CAF50; 
   }
   
   @media (max-width: 768px) {

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5EEDC; 
+  font-family: Arial, sans-serif; 
+  min-height: 100vh; 
+}
+
+.projects-container {
+  background-color: #F5EEDC; 
+  padding: 20px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;  
+}
+
+.about-card {
+  background-color: #F5EEDC;
+  padding: 20px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  
+}
+
+.about-container {
+  background-color: #F5EEDC;
+  padding: 20px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);  
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}

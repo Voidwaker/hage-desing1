@@ -4,7 +4,7 @@ import './header.css';
 const Header = () => {
     return(
         <header>
-            <h1>BHD</h1>
+            <div className='logo'>Berits Hage Design</div>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>

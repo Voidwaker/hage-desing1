@@ -1,23 +1,37 @@
 header {
-    background-color: #4CAF50;
-    color: white;  
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6D805D; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .logo {
+    font-family: 'Merriweather', serif; 
+    font-size: 2rem;
+    color: #F5EEDC;  
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);  
+    text-transform: uppercase;  
   }
   
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 15px;
+    display: flex;
+    gap: 20px; 
   }
   
   nav ul li a {
-    color: white;  
+    color: #F5EEDC; 
     text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #4CAF50;  
   }
   
   

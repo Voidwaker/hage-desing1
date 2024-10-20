@@ -4,6 +4,7 @@ import Header from './components/header.jsx';
 import Footer from './components/footer.jsx'; 
 import Services from './components/services.jsx';
 import About from './components/about.jsx';
+import './App.css'; 
 
 function App() {
   const services = [
