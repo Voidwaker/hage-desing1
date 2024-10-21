@@ -4,6 +4,7 @@ import Header from './components/header.jsx';
 import Footer from './components/footer.jsx'; 
 import Services from './components/services.jsx';
 import About from './components/about.jsx';
+import Contact from './components/contact.jsx';
 import './App.css'; 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             </>
           } />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
