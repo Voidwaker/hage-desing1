@@ -1,11 +1,45 @@
+/* Grunnleggende styling */
 body {
   margin: 0;
   padding: 0;
   background-color: #F5EEDC; 
   font-family: Arial, sans-serif; 
   min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
 }
 
+/* Kort-styling for hjemmesiden */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Prosjekt-container */
 .projects-container {
   background-color: #F5EEDC; 
   padding: 20px;
@@ -13,14 +47,7 @@ body {
   border-radius: 10px;  
 }
 
-.about-card {
-  background-color: #F5EEDC;
-  padding: 20px;
-  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  
-}
-
+/* About-seksjonen */
 .about-container {
   background-color: #F5EEDC;
   padding: 20px;
@@ -28,8 +55,35 @@ body {
   border-radius: 10px;
 }
 
+.about-card {
+  background-color: #F5EEDC;
+  padding: 20px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
 .about-card:hover {
-  transform: translateY(-10px);  
+  transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Footer-styling */
+footer {
+  background-color: #4F5D2F;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
