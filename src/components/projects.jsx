@@ -8,30 +8,30 @@ import garden4 from './images/garden4.webp';
 const Projects = () => {
   const projectList = [
     {
-      title: 'Modern Garden Design',
-      description: 'A modern garden with clean lines and minimalist planting schemes.',
+      title: 'Moderne hagedesign',
+      description: 'En moderne hage med rene linjer og minimalistiske beplantningsplaner.',
       image: Garden1
-    },
+    },    
     {
-      title: 'Cottage Garden',
-      description: 'A cozy cottage garden filled with vibrant flowers and rustic elements.',
+      title: 'Hyttehage',
+      description: 'En koselig hyttehage fylt med livlige blomster og rustikke elementer.',
       image: Garden2
-    },
+    },    
     {
-      title: 'Urban Rooftop Garden',
-      description: 'A compact and stylish rooftop garden for urban living.',
+      title: 'Urban takhage',
+      description: 'En kompakt og stilig takhage for urbant liv.',
       image: garden3
-    },
+    },    
     {
-        title: 'Urban Rooftop Garden',
-        description: 'A compact and stylish rooftop garden for urban living.',
-        image: garden4
-      }
+      title: 'Urban takhage',
+      description: 'En kompakt og stilig takhage for urbant liv.',
+      image: garden4
+    }    
   ];
 
   return (
     <section className="projects-container">
-      <h2>Previous Projects</h2>
+      <h2>Tidligere Prosjekter</h2>
       <div className="projects-grid">
         {projectList.map((project, index) => (
           <div className="project-card" key={index}>

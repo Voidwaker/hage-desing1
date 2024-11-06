@@ -15,7 +15,7 @@ const Contact = () => {
         <section>
             <h2 className='contact-form-h2'>Contact Us</h2>
             <form className="card contact-form" onSubmit={handleSubmit}>
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">Navn</label>
                 <input
                     className="input-field"
                     type="text"
@@ -33,7 +33,7 @@ const Contact = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                 />
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message">Melding</label>
                 <textarea
                     className="input-field textarea" 
                     id="message"

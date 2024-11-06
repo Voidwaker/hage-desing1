@@ -8,10 +8,10 @@ const Header = () => {
             <div className='logo'>Berits Hage Design</div>
             <nav>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/">Hjem</Link></li>
+                    <li><Link to="/about">Om Meg</Link></li>
+                    <li><Link to="/contact">Kontakt</Link></li>
+                    <li><Link to="/services">Tjenester</Link></li>
                 </ul>
             </nav>
         </header>

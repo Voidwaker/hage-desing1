@@ -9,9 +9,9 @@ import './App.css';
 
 function App() {
   const services = [
-    'Garden Planning',
-    'Landscape Design',
-    'Planting'
+    'Hage Planlegging',
+    'Hage Design',
+    'Hage Tegning',
   ];
 
   return (
@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <p>Welcome to Berit's Garden Design</p>
+              <p>Velkommen til Berit's Hage Design</p>
               <Services services={services} />
             </>
           } />
