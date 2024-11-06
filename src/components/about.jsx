@@ -13,9 +13,9 @@ const About = () => {
           className="profile-img"
         />
         <div className="about-text">
-          <h2>About Me</h2>
-          <p>Hello! My name is Berit, and I specialize in garden design and landscape planning.</p>
-          <p>I have over 10 years of experience in the field, and I love helping clients bring their dream gardens to life.</p>
+          <h2>Om Meg</h2>
+          <p>Hei! Jeg spesialiserer meg på hagedesign og landskapsplanlegging</p>
+          <p>Med lang erfaring innen hagedesign elsker jeg å hjelpe kunder med å realisere drømmehagene sine.</p>
         </div>
       </div>
       
