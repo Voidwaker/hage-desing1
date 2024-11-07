@@ -5,7 +5,8 @@ import Footer from './components/footer.jsx';
 import Services from './components/services.jsx';
 import About from './components/about.jsx';
 import Contact from './components/contact.jsx';
-import Projects from './components/projects.jsx'; // Importer Projects
+import Projects from './components/projects.jsx';
+import Testimonials from './components/testimonials.jsx';
 import './App.css'; 
 
 function Home() {
@@ -29,7 +30,8 @@ function Home() {
           </div>
         ))}
       </div>
-      <Projects /> {}
+      <Projects />
+      <Testimonials /> {/* Legger til Testimonials-seksjonen */}
     </div>
   );
 }
