@@ -5,6 +5,7 @@ import Footer from './components/footer.jsx';
 import Services from './components/services.jsx';
 import About from './components/about.jsx';
 import Contact from './components/contact.jsx';
+import Projects from './components/projects.jsx'; // Importer Projects
 import './App.css'; 
 
 function Home() {
@@ -28,6 +29,7 @@ function Home() {
           </div>
         ))}
       </div>
+      <Projects /> {}
     </div>
   );
 }
