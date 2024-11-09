@@ -13,7 +13,7 @@ const Contact = () => {
 
     return (
         <section>
-            <h2 className='contact-form-h2'>Contact Us</h2>
+            <h2 className='contact-form-h2'>Kontakt Meg</h2>
             <form className="card contact-form" onSubmit={handleSubmit}>
                 <label htmlFor="name">Navn</label>
                 <input

@@ -21,7 +21,7 @@ function Home() {
   return (
     <div className="home">
       <h1>Velkommen til Berits Hage Design</h1>
-      <p>Jeg hjelper deg med å realisere din drømmehage!</p>
+      <p>Jeg hjelper deg med å realisere din hagedrømm!</p>
       <div className="card-container">
         {sections.map((section, index) => (
           <div key={index} className="card" onClick={() => navigate(section.path)}>
