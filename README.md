@@ -24,7 +24,7 @@ This project was created with [Create React App](https://github.com/facebook/cre
 - **Contact**: A contact section where users can directly send messages.
 
 ### Additional Features
-- **Past Projects**: A visual gallery showcasing previous garden design projects.
+- **Past Projects**: A visual gallery showcasing previous client projects.
 - **Customer Testimonials**: A section displaying feedback from previous clients to build trust.
 - **Responsive Design**: Optimized for both desktop and mobile viewing.
 
