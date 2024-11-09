@@ -13,9 +13,9 @@ function Home() {
   const navigate = useNavigate();
   
   const sections = [
-    { title: 'Om meg', description: 'Lær mer om hvem vi er og hva vi gjør.', path: '/about' },
-    { title: 'Kontakt', description: 'Kom i kontakt med oss for å diskutere ditt prosjekt.', path: '/contact' },
-    { title: 'Tjenester', description: 'Se våre tjenester innen hagedesign.', path: '/services' }
+    { title: 'Om meg', description: 'Lær mer om hvem jeg er og hva jeg gjør.', path: '/about' },
+    { title: 'Kontakt', description: 'Kom i kontakt med meg for å diskutere ditt prosjekt.', path: '/contact' },
+    { title: 'Tjenester', description: 'Se mine tjenester innen hagedesign.', path: '/services' }
   ];
 
   return (
